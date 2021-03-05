@@ -164,9 +164,8 @@
 			children = (
 				70F1FE0225F2F7F400C1AD80 /* New Orders */,
 				70F1FE0025F2F7AD00C1AD80 /* Past Orders */,
-				70F1FDEC25F2EC8B00C1AD80 /* Item.swift */,
+				70F1FE0E25F2F9DA00C1AD80 /* Models */,
 				70F1FDFB25F2F79400C1AD80 /* OrderList.swift */,
-				70F1FDF625F2F44300C1AD80 /* Order.swift */,
 				70F1FDDF25F2E52B00C1AD80 /* TabBarController.swift */,
 			);
 			path = Controllers;
@@ -179,6 +178,15 @@
 				70F1FDA025F2E00100C1AD80 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		70F1FE0E25F2F9DA00C1AD80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70F1FDEC25F2EC8B00C1AD80 /* Item.swift */,
+				70F1FDF625F2F44300C1AD80 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
