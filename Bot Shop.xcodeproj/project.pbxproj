@@ -20,6 +20,7 @@
 		70F1FDE825F2E86000C1AD80 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1FDE725F2E86000C1AD80 /* NewItemCell.swift */; };
 		70F1FDED25F2EC8B00C1AD80 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1FDEC25F2EC8B00C1AD80 /* Item.swift */; };
 		70F1FDF225F2F10E00C1AD80 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1FDF125F2F10E00C1AD80 /* PastOrderCell.swift */; };
+		70F1FDF725F2F44300C1AD80 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1FDF625F2F44300C1AD80 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		70F1FDE725F2E86000C1AD80 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		70F1FDEC25F2EC8B00C1AD80 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		70F1FDF125F2F10E00C1AD80 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
+		70F1FDF625F2F44300C1AD80 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				70F1FDEC25F2EC8B00C1AD80 /* Item.swift */,
 				70F1FDE725F2E86000C1AD80 /* NewItemCell.swift */,
 				70F1FDDA25F2E4BD00C1AD80 /* PastOrderViewController.swift */,
+				70F1FDF625F2F44300C1AD80 /* Order.swift */,
 				70F1FDDF25F2E52B00C1AD80 /* TabBarController.swift */,
 				70F1FDAA25F2E00E00C1AD80 /* Assets.xcassets */,
 				70F1FDAC25F2E00E00C1AD80 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 			files = (
 				70F1FDDB25F2E4BD00C1AD80 /* PastOrderViewController.swift in Sources */,
 				70F1FDA325F2E00100C1AD80 /* NewOrderViewController.swift in Sources */,
+				70F1FDF725F2F44300C1AD80 /* Order.swift in Sources */,
 				70F1FD9F25F2E00100C1AD80 /* AppDelegate.swift in Sources */,
 				70F1FDE825F2E86000C1AD80 /* NewItemCell.swift in Sources */,
 				70F1FDED25F2EC8B00C1AD80 /* Item.swift in Sources */,
