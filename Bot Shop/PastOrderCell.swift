@@ -36,7 +36,26 @@ class PastOrderCell: UITableViewCell{
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?){
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        setup()
     }
+    
+    func setup() {
+
+        contentView.addSubview(stackView)
+
+        stackView.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.85).isActive = true
+        stackView.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 0.75).isActive = true
+        stackView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+        stackView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+
+        stackView.addArrangedSubview(itemImage)
+        itemImage.widthAnchor.constraint(equalTo: stackView.widthAnchor, multiplier: 0.25).isActive = true
+
+        stackView.addArrangedSubview(title)
+        title.widthAnchor.constraint(equalTo: stackView.widthAnchor, multiplier: 0.55).isActive = true
+    }
+
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
