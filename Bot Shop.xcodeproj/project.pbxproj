@@ -113,14 +113,8 @@
 		70F1FD9D25F2E00100C1AD80 /* Bot Shop */ = {
 			isa = PBXGroup;
 			children = (
-				70F1FD9E25F2E00100C1AD80 /* AppDelegate.swift */,
-				70F1FDA025F2E00100C1AD80 /* SceneDelegate.swift */,
-				70F1FE0225F2F7F400C1AD80 /* New Orders */,
-				70F1FE0025F2F7AD00C1AD80 /* Past Orders */,
-				70F1FDEC25F2EC8B00C1AD80 /* Item.swift */,
-				70F1FDFB25F2F79400C1AD80 /* OrderList.swift */,
-				70F1FDF625F2F44300C1AD80 /* Order.swift */,
-				70F1FDDF25F2E52B00C1AD80 /* TabBarController.swift */,
+				70F1FE0A25F2F8B700C1AD80 /* Delegates */,
+				70F1FE0625F2F8AA00C1AD80 /* Controllers */,
 				70F1FDAA25F2E00E00C1AD80 /* Assets.xcassets */,
 				70F1FDAC25F2E00E00C1AD80 /* LaunchScreen.storyboard */,
 				70F1FDAF25F2E00E00C1AD80 /* Info.plist */,
@@ -163,6 +157,28 @@
 				70F1FDE725F2E86000C1AD80 /* NewItemCell.swift */,
 			);
 			path = "New Orders";
+			sourceTree = "<group>";
+		};
+		70F1FE0625F2F8AA00C1AD80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				70F1FE0225F2F7F400C1AD80 /* New Orders */,
+				70F1FE0025F2F7AD00C1AD80 /* Past Orders */,
+				70F1FDEC25F2EC8B00C1AD80 /* Item.swift */,
+				70F1FDFB25F2F79400C1AD80 /* OrderList.swift */,
+				70F1FDF625F2F44300C1AD80 /* Order.swift */,
+				70F1FDDF25F2E52B00C1AD80 /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		70F1FE0A25F2F8B700C1AD80 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				70F1FD9E25F2E00100C1AD80 /* AppDelegate.swift */,
+				70F1FDA025F2E00100C1AD80 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

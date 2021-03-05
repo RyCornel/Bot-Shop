@@ -50,5 +50,11 @@ extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("selected!")
+        let nextVC: OrderList = OrderList()
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
 
 }
