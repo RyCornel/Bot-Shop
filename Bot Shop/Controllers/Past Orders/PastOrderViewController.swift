@@ -66,7 +66,10 @@ extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PastOrderCell
             cell.accessoryType = .disclosureIndicator
             cell.selectionStyle = .none
+            cell.textLabel?.text = "\(indexPath.row + 1) \(orders[indexPath.row].title)"
             cell.setBoxContents(box: orders[indexPath.row])
+
+        
         return cell
     }
 
@@ -77,6 +80,7 @@ extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("selected!")
         let nextVC: OrderList = OrderList()
+        nextVC.currentOrder = orders[indexPath.row]
         self.navigationController?.pushViewController(nextVC, animated: true)
     }
 

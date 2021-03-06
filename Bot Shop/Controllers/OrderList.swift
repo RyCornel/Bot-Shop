@@ -21,6 +21,10 @@ class OrderList: UIViewController {
     let tableView =  UITableView()
     
     var orders: [Order] = []
+    
+    var currentOrder: Order!
+    
+    var orderItems: [Item] = []
 
 
     override func viewDidLoad() {
@@ -46,14 +50,16 @@ class OrderList: UIViewController {
 
 extension OrderList: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return orders.count
+        
+        return currentOrder.items.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PastOrderCell
             cell.accessoryType = .disclosureIndicator
             cell.selectionStyle = .none
-            cell.setBoxContents(box: orders[indexPath.row])
+            cell.setCellContents(item: currentOrder.items[indexPath.row])
+        
         return cell
     }
 
