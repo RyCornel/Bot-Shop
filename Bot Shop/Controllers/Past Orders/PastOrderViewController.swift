@@ -44,10 +44,10 @@ class PastOrderViewController: UIViewController {
         let robot5 = Item(title: "Lymphatic", image: UIImage(named: "robot5")!)
         let robot6 = Item(title: "Nervous", image: UIImage(named: "robot6")!)
         
-        let ordersList = [Order(title: "July 2020", image: UIImage(named: "box")!, items: [robot1, robot3]),
-                        Order(title: "June 2020", image: UIImage(named: "box")!, items: [robot2, robot3, robot6]),
-                        Order(title: "May 2020", image: UIImage(named: "box")!, items: [robot4, robot1]),
-                        Order(title: "December 2019", image: UIImage(named: "box")!, items: [robot2, robot5, robot6])
+        let ordersList = [Order(title: "July 2020", image: UIImage(named: "box")!, item: [robot1, robot3]),
+                          Order(title: "June 2020", image: UIImage(named: "box")!, item: [robot2, robot3, robot6]),
+                          Order(title: "May 2020", image: UIImage(named: "box")!, item: [robot4, robot1]),
+                          Order(title: "December 2019", image: UIImage(named: "box")!, item: [robot2, robot5, robot6])
         ]
         
         for box in ordersList {
